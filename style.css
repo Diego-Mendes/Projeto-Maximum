@@ -1,6 +1,6 @@
 *{
     margin: auto;
-    
+    padding: 0;
 }
 
 body{
@@ -9,10 +9,88 @@ body{
     height: 721px;
     min-width: 370px;
     font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
     
 }
 
+/** Estilo do header: **/
+
+
+#banner{
+    background-color:#4A3875;
+    height: 60px;
+    text-align: center;
+    padding-top: 90px;
+
+    color:#9B77F7;
+    
+    
+}
+
+#logo{
+    position: relative;
+    top: -130px;
+}
+
+.menu-nav{
+    width: auto;
+    height: auto;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    list-style: none;
+    top: -132px;
+    position: relative;
+ 
+   
+}
+
+.nav-menu > ul > li{
+    
+    display: inline;
+    
+}
+.nav-menu > ul{
+    
+}
+
+.menu-nav ul > li > a{
+   
+    text-decoration: none;
+    display: inline;
+    color: #9B77F7;
+    padding: 5px 10px;
+    float: left;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.144);
+    border-radius: 5px 2px;
+
+  
+}
+
+
+.menu-nav li > a:hover{
+    background-color: #5023c252;
+    
+    -webkit-box-shadow: 0 3px 10px 0 rgba(204, 204, 204, 0.164);
+}
+
+#right{
+    left: 732px;
+}
+
+#left{
+    left: 412px;
+}
+
+
+
+/**--------------------------------------------------------------------**/
+
+/**Parte do main:**/
+
 #corpo{
+    display: none;
+    
     text-align: center;
     width: 500px;
     height: 350px;
@@ -56,18 +134,10 @@ body{
     color: #9B77F7;
 }
 
+/**-----------------------------------------------------------**/
 
+/**Footer:**/
 
-#content{
-    background-color:#4A3875;
-    height: 80px;
-    text-align: center;
-    padding-top: 90px;
-
-    color:#9B77F7;
-    
-    
-}
 
 
 
