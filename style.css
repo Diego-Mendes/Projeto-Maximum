@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Oswald&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 *{
     margin: 0 auto;
@@ -125,16 +126,28 @@ left: 20px;
     background-image: linear-gradient(to bottom, #101ee8d7,#101ee863, white);
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.199);
     
-    width: 400px;
-    height: 350px;
+    width: 380px;
+    height: 340px;
 
     position: relative;
-    top: -460px;
+    top: -480px;
     right: 195px;
     
 
-    text-align: justify;
+   
     border-radius: 20px 5px;
+
+    
+}
+
+#frase{
+    position: relative;
+    top: -520px;
+    left: 700px;
+
+    font-size: 23px;
+    font-family:  'Lobster', cursive;
+    color: #4A3875;
 }
 .content-menu > h2{
     font-family:'Patua One', cursive;
@@ -148,8 +161,35 @@ left: 20px;
 
 .content-menu > img{
     position: relative;
-    right: -50px;
+    right: -38px;
+    align-items: center;
+
+    -webkit-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+    -moz-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+    -ms-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+    -o-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+    transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
 }
+
+.content-menu:hover img{
+   
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    transform: scale(0.9);
+}
+
+.content-menu:hover{
+    opacity: 1;
+    box-shadow: inset 0 0 100px 50px rgba(0, 0, 0, 0.210);
+    transition: .5s;
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    transform: scale(0.9);
+} 
 
 .brush{
    
@@ -172,18 +212,20 @@ left: 20px;
 }
 
 #aulas{
-    display: none;
+    display: block;
 }
 
 .setas{
     opacity: 0;
+    transition: .2s;
     
 }
 
 #esquerda{
     position: relative;
     left: 760px;
-    top: -350px; 
+    top: -370px; 
+    
 }.setas:hover{
     opacity: 0.5;
     transition: opacity .2s linear;
@@ -192,7 +234,7 @@ left: 20px;
 #direita{
     position: relative;
     left: 1185px;
-    top: -350px;
+    top: -370px;
 }
 /**-----------------------------------------------------------**/
 
