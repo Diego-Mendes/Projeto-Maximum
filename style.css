@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
 
 *{
     margin: 0 auto;
@@ -7,9 +8,10 @@
 }
 
 body{
-    background-image: linear-gradient(to bottom,#9b77f76e, #652cf5a9);
+    background-image: linear-gradient(to bottom, #9b77f72f, #652cf57e);
     background-repeat: no-repeat;
-    height: 721px;
+    height: 740px;
+    width: 100%;
     min-width: 370px;
     font-family: Arial, Helvetica, sans-serif;
     overflow-x: hidden;
@@ -27,27 +29,34 @@ body{
     padding-top: 90px;
 
     color:#9B77F7;
+  
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.575);
     
     
 }
-
+/**
 h1{
+   
     font-family: 'Dela Gothic One', cursive;
     font-size: 50px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.342);
+    
 
     position: relative;
     top: -50px;
-    left: 280px;
+    left: 240px;
 }
 
 #logo{
     position: relative;
-    top: -225px;
+    top: -2095px;
     width: 250px;
     height: 250px;
 
    
-}
+}*/
+
+
 
 .lista{
     list-style: none;
@@ -64,7 +73,7 @@ h1{
    
     display: inline-block;
     padding: 8px 20px;
-    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.144);
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.075);
     border-radius: 5px 2px;
     
 }
@@ -87,7 +96,7 @@ h1{
 
 #right{
     position: relative;
-    top: -352px;
+   top: -25px;
     left: -330px;
 }
 
@@ -103,52 +112,88 @@ h1{
 
 /**Parte do main:**/
 
-#corpo{
-    display: none;
+#fundo{
+ text-align: left;
+ position: relative;
+
+left: 20px;
+}
+
+
+.content-menu{
+    float: right;
+    background-image: linear-gradient(to bottom, #101ee8d7,#101ee863, white);
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.199);
     
-    text-align: center;
-    width: 500px;
+    width: 400px;
     height: 350px;
-   border-radius: 10px;
-   position: relative;
-   top: 20px;
-   padding: 15px;
 
-    background-color: white;
-    font-size: 18px;
-    color: #301575;
-    font-weight: bold;
+    position: relative;
+    top: -460px;
+    right: 195px;
+    
+
+    text-align: justify;
+    border-radius: 20px 5px;
+}
+.content-menu > h2{
+    font-family:'Patua One', cursive;
+    font-size: 35px;
+    text-align: center;
+    position: relative;
+    top: -15px;
+    color: #7813DC;
+
 }
 
-#p1{
-    text-align: left;
+.content-menu > img{
     position: relative;
-    top: 70px;
+    right: -50px;
+}
+
+.brush{
+   
+   border-radius: 20px 5px;
+   
+    width: 400px;
+    height: 350px;
+
+    position: relative;
+    top: -348px;
     
 }
 
-#p2{
-    text-align: left;
+#cronos{
+    display: none;
+}
+
+#estatic{
+    display: none;
+}
+
+#aulas{
+    display: none;
+}
+
+.setas{
+    opacity: 0;
+    
+}
+
+#esquerda{
     position: relative;
-    top: 60px;
-
-}
-#p2 >p{
-    font-weight: normal;
-    padding: 5px;
-}
-
-#corpo > select{
-    height: 25px;
-    border-radius: 3px;
-    font-size: 17px;
+    left: 760px;
+    top: -350px; 
+}.setas:hover{
+    opacity: 0.5;
+    transition: opacity .2s linear;
 }
 
-#corpo > select:hover{
-    background-color: #4A3875;
-    color: #9B77F7;
+#direita{
+    position: relative;
+    left: 1185px;
+    top: -350px;
 }
-
 /**-----------------------------------------------------------**/
 
 /**Footer:**/

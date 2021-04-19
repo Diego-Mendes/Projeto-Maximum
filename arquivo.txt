@@ -1,0 +1,33 @@
+<!--
+        <section id="corpo">
+           <p id="p1">Horas de estudo:
+               <input type="number" name="horas" id="txthoras" placeholder="ex: 1,5 (1,30h)">
+           </p>
+    
+           <select name="materias" id="materias">
+               <option value="0">Selecione a Matéria:</option>
+               <option value="1" id="port">&#x1F4DA; Português</option>
+               <option value="2" id="ing">&#x2753; Inglês</option>
+               <option value="3" id="mat">&#x1F4D0; Matemática</option>
+               <option value="4" id="quim">&#x1F9EA; Química</option>
+               <option value="5" id="fis">&#x1F9F2; Física</option>
+           </select>
+    
+        <div id="p2">
+    
+                   Dia da semana:
+                    <p><input type="radio" name="dia" value="seg"> Segunda</p>
+                    <p><input type="radio" name="dia" value="ter"> Terça</p>
+                    <p><input type="radio" name="dia" value="qua"> Quarta</p>
+                    <p><input type="radio" name="dia" value="qui"> Quinta</p>
+                    <p><input type="radio" name="dia" value="sex"> Sexta</p>
+    
+        </div>
+    
+    
+            <div></div>
+
+           
+    
+        </section>
+         -->
