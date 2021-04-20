@@ -1,2 +1,2 @@
 # Projeto-Maximum
- Aplicação Web para organização de estudps
+ Aplicação Web para organização de estudos
