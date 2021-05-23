@@ -9,9 +9,10 @@
 }
 
 body{
-    background-image: linear-gradient(to bottom, #9b77f72f, #652cf57e);
+    background-image: linear-gradient(to bottom, white, #004badc4);
+    
     background-repeat: no-repeat;
-    height: 740px;
+    height: 100%;
     width: 100%;
     min-width: 370px;
     font-family: Arial, Helvetica, sans-serif;
@@ -35,26 +36,25 @@ body{
     
     
 }
-/**
-h1{
-   
-    font-family: 'Dela Gothic One', cursive;
-    font-size: 50px;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.342);
-    
 
+
+#content-logo{
     position: relative;
-    top: -50px;
-    left: 240px;
+    top: -45px;
+   left: 130px;
 }
-*/
 #logo{
     position: relative;
-    top: -160px;
+    top: -125px;
     width: 250px;
     height: 250px;
 
    
+}
+#h1{
+    position: relative;
+    left: -110px;
+    top: -70px;
 }
 
 
@@ -66,6 +66,8 @@ h1{
 .lista > li{
     display: inline;
     padding: 20px;
+    position: relative;
+    top: -10px;
 }
 
 .lista > li > a{
@@ -80,6 +82,7 @@ h1{
 }
 
 #menu > ul > li > a:hover{
+    color: white;
     background-color: #5023c252;
     -webkit-box-shadow: 0 3px 10px 0 rgba(204, 204, 204, 0.164);
     transition: background .4s;
@@ -92,7 +95,21 @@ h1{
    float: right;
     position: relative;
     left: 300px;
+    top: -20px;
   
+}
+
+#menu > p{
+    float: right;
+    position: relative;
+    right: 33px;
+    bottom: 350px;
+    
+}
+
+#menu >p >a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.582);
 }
 
 #right{
@@ -104,7 +121,7 @@ h1{
 
 #left{
     position: relative;
-    top: -285px;
+    top: -290px;
     left: -200px;
 }
 
@@ -125,24 +142,23 @@ h1{
 
 /**Parte do main:**/
 
-#fundo{
+#image1{
  text-align: left;
  position: relative;
 
-left: 20px;
+left: 320px;
+top: -160px;
+
 }
 
-/*#image2{
+
+
+#image2{
     position: relative;
     top: 120px;
-    right: 70px;
+    left: -400px;
 }
 
-#image3{
-    position: relative;
-    right: 700px;
-    top: 150px;
-}*/
 
 
 .content-menu{
@@ -154,8 +170,8 @@ left: 20px;
     height: 340px;
 
     position: relative;
-    top: -480px;
-    right: 195px;
+    top: -430px;
+    right: 160px;
     
 
    
@@ -167,12 +183,16 @@ left: 20px;
 
 #frase{
     position: relative;
-    top: -510px;
-    left: 700px;
+    top: -490px;
+    left: 800px;
 
     font-size: 23px;
     font-family:  'Lobster', cursive;
-    color: #4A3875;
+    color: #00123B;
+    
+}
+#frase:hover{
+    text-shadow: 1px 1px 1px white;
 }
 .content-menu > h2{
     font-family:'Patua One', cursive;
@@ -243,13 +263,13 @@ left: 20px;
 .setas{
     opacity: 0.2;
     transition: .2s;
-    
+    top: -320px;
 }
 
 #esquerda{
     position: relative;
-    left: 810px;
-    top: -370px; 
+    left: 840px;
+   
     
 }.setas:hover{
     opacity: 0.5;
@@ -258,8 +278,8 @@ left: 20px;
 
 #direita{
     position: relative;
-    left: 1183px;
-    top: -370px;
+    left: 1220px;
+  
 }
 /**-----------------------------------------------------------**/
 
@@ -268,8 +288,8 @@ left: 20px;
 #rodape{
     text-align: center;
     position: relative;
-    left: 190px;
-    top: -80px;
+    left: 210px;
+    top: -79px;
   
 }
 
