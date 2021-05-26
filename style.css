@@ -169,8 +169,8 @@ top: -160px;
     width: 380px;
     height: 340px;
 
-    position: relative;
-    top: -430px;
+    position: absolute;
+    top: 320px;
     right: 160px;
     
 
@@ -287,9 +287,9 @@ top: -160px;
 
 #rodape{
     text-align: center;
-    position: relative;
-    left: 210px;
-    top: -79px;
+    position: absolute;
+    left: 500px;
+    top: 800px;
   
 }
 

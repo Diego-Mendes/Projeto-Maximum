@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(to bottom, white, #004badc4);
+    
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    min-width: 370px;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+    min-width: 710px;
+    font-family: 'Oswald', sans-serif;
+}
+
+#fundo-menu{
+    height: 722px;
+    width: 200px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.342);
+    float: left;
+    background-color: #1559B3;
+}
+
+#home{
+    position: relative;
+    right: 230px;
+    bottom: 70px;
+}
+
+#exe{
+    position: relative;
+    right: 510px;
+    top: 340px;
+}
+
+#materias{
+    position: relative;
+    right: 810px;
+    top: 160px;
+}
+
+
+#text{
+    position: relative;
+    bottom: 230px;
+    left: 130px;
+    width: 300px;
+    height: 22px;
+
+    text-decoration: none;
+    border: 0 none;
+    outline: 0;
+    
+}
